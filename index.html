@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styless.css">
+    <script src="main.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="calculadora">
+        <div class="numero">
+            <input id="numero1" type="number" placeholder="numero1">
+            <input id="numero2" type="number" placeholder="numero2">
+            <input id="numero3" type="number" placeholder="numero3">
+        </div>
+        <div class="btn">
+         <button onclick="sumar(document.getElementById('numero1').value, document.getElementById('numero2').value)">sumar</button>
+         <button  onclick="restar(document.getElementById('numero1').value, document.getElementById('numero2').value)">restar</button>
+         <button onclick="multiplicar(document.getElementById('numero1').value, document.getElementById('numero2').value)">multiplicar</button>
+         <button onclick="dividir(document.getElementById('numero1').value, document.getElementById('numero2').value)">dividir</button>
+         <button onclick="cuadradoDeUnNumero(document.getElementById('numero1').value)">Cuadrado</button>
+         <button onclick="promedioDeTresNumeros(document.getElementById('numero1').value, document.getElementById('numero2').value, document.getElementById('numero3').value)">Promedio</button>
+        </div>
+</body>
+</html>
